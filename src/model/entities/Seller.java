@@ -14,7 +14,7 @@ public class Seller implements Serializable {
 	
 	private Department department;
 	
-	Seller(){
+	public Seller(){
 	}
 
 	public Seller(Integer id, String name, Date birthDate, Double baseSallary, Department department) {
